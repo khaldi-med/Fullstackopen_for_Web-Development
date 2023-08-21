@@ -1,0 +1,13 @@
+## This for ex 0.6: "New note in Single page app diagram"
+
+
+sequenceDiagram
+    user->> browser: 1-
+    user->> URL:2- go to "https://studies.cs.helsinki.fi/exampleapp/notes?" 
+    browser->> [SPA]:3- Loads the SPA
+    [SPA] ->> server:4- Fetched the file from server using "GET" method
+    user ->> [SPA]:5- "User Explores and Interacts"
+    user ->> [Note]: "Add new note and save it"
+    [SPA] ->> server: "AJAX requests"
+    server ->> [SPA]: "Server response use JSON or XML"
+    [SPA] ->> user: "The SPA updates the visual representation of the page based on the changes made to the DOM."

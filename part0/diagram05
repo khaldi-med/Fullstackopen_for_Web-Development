@@ -1,0 +1,8 @@
+## This for ex 0.5: "Single page app diagram"
+
+sequenceDiagram
+    user->> browser: 1-
+    user->> URL:2- go to "https://studies.cs.helsinki.fi/exampleapp/notes?" 
+    browser->> [SPA]:3- Loads the SPA
+    [SPA] ->> server:4- Fetched the file from server using "GET" method
+    user ->> [SPA]:5- "User Explores and Interacts"

@@ -1,0 +1,9 @@
+## This for ex 0.4: "Create a similar diagram.."
+
+sequenceDiagram
+    user->> browser: 
+    user->> URL: go to "https://studies.cs.helsinki.fi/exampleapp/notes?" 
+    user-->> [Newnote]: Add new note in note space
+    user-->> [saveBotton]: Click in Save button
+    [saveBotton]-->> HTTP: 
+    HTTP -->> server: USE "POST" Method 
