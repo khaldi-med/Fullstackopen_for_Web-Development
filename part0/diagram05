@@ -1,4 +1,4 @@
-## This for ex 0.5: "Single page app diagram"
+## This is for 'ex 0.5': "Single page app diagram"
 
 sequenceDiagram
     user->> browser: 1-
