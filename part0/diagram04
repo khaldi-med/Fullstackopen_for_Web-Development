@@ -1,4 +1,4 @@
-## This for ex 0.4: "Create a similar diagram.."
+## This is for 'ex 0.4': "Create a similar diagram.."
 
 sequenceDiagram
     user->> browser: 
